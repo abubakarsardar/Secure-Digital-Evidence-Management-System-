@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-section {
+    background: linear-gradient(rgba(37, 65, 192, 0.719),rgb(67, 37, 238)) , url('./h.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .hero-description {
+    border: 1px solid rgba(165, 42, 42, 0.548);
+    font-size: 0.5rem;
+    line-height: 1.6;
+    width: 15rem;
+    background-color: rgba(165, 42, 42, 0.548);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    word-spacing: 2px;
+
+  }
+  .hero-image img{
+    width: 20rem;
+    border-radius: 2rem;
+
+  }
+  .hero-overlay{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: 0 auto;
+  }
+  .hero-client{
+    display: flex;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+  .hero-client p{
+    font-size: 0.6rem;
+  }
+
+  .her2{
+    color: #000;
+  }
+  .hero2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: 5rem auto;
+
+    gap: 2rem;
+  }
+
+  /* -------------------------------------- Navbar ---------------------------------- */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+  }
+
+  .logo img{
+    width: 4rem;
+  }
+  .nav ul{
+    display: flex;
+  }
+  .nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+  }

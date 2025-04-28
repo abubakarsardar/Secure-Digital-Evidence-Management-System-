@@ -1,0 +1,21 @@
+.cont-error{
+    width: 70%;
+    margin: 7rem auto;
+
+}
+.cont-error h1{
+    padding: 1rem 0;
+}
+.cont-error p{
+    padding: 1rem;
+}
+.GoToHome{
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #444;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(116, 114, 114, 0.479);
+    color: #000 ;
+    cursor: pointer;
+    margin: 2rem;
+}

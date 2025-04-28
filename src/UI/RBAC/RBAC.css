@@ -1,0 +1,19 @@
+.RBAC
+{
+    font-family: 'Poppins', sans-serif;
+}.RBAC-img{
+    background: linear-gradient(rgba(37, 65, 192, 0.719),rgb(67, 37, 238)) , url('./RBAC.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+.Navbar{
+    text-transform: uppercase;
+}
+.RBAC-content{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 8.5%;
+    color: #fff;
+}
