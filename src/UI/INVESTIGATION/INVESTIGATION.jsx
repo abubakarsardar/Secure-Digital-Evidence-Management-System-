@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import './JUDGES.css';
+import './INVESTIGATION.css';
 
-export const JUDGES = () => {
+export const INVESTIGATION = () => {
   return (
-    <section className='judges'>
-     <div className="judges-img">
+    <section className='investigation'>
+     <div className="investigation-img">
         <div className='Navbar'>
             <div className='logo'>
                 <img src="/img/logo.png" alt="logo" />
@@ -20,12 +20,12 @@ export const JUDGES = () => {
             </div>
         </div>
 
-        <div className='judges-content'>
-            <h1>JUDGES</h1>
+        <div className='investigation-content'>
+            <h1>investigation</h1>
         </div>
         </div>
 
-<div className='judges-container'>
+<div className='investigation-container'>
         <div className="sdsms-container">
       <div className="sdsms-content">
         <p className="sdsms-description">
@@ -33,7 +33,7 @@ export const JUDGES = () => {
           ENSURES SECURE ACCESS TO DIGITAL CASE FILES WHILE MAINTAINING <br />
           EVIDENCE INTEGRITY AND LEGAL COMPLIANCE. WITH ROLE-BASED <br />
           AUTHENTICATION, AES-256 ENCRYPTION, AND REAL-TIME AUDIT LOGS, <br />
-          THE SYSTEM ENABLES JUDGES, INVESTIGATORS, AND COURT  <br /> SECURELY UPLOAD, RETRIEVE, AND VERIFY DIGITAL EVIDENCE. <br />
+          THE SYSTEM ENABLES investigation, INVESTIGATORS, AND COURT  <br /> SECURELY UPLOAD, RETRIEVE, AND VERIFY DIGITAL EVIDENCE. <br />
            ITS CHAIN-OF-CUSTODY TRACKING ENSURES ALL INTERACTIONS ARE <br />
           LOGGED AND TAMPER-PROOF, STRENGTHENING JUDICIAL TRANSPARENCY AND CASE CREDIBILITY.
         </p>
@@ -44,7 +44,7 @@ export const JUDGES = () => {
         </div>
       </div>
       <div className='judge-img'>
-    <img src="/img/judges.avif" alt="" />
+    <img src="/img/investigation.avif" alt="" />
   </div>
             
     </div>

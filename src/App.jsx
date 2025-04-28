@@ -5,6 +5,7 @@ import Home from "./UI/Home/Home";
 import { AppLayout } from "./UI/AppLayout";
 import { RBAC } from "./UI/RBAC/RBAC";
 import { JUDGES } from "./UI/JUDGES/JUDGES";
+import { INVESTIGATION } from "./UI/INVESTIGATION/INVESTIGATION";
 
 
 
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
     {
       path : '/RBAC/JUDGES',
       element : <JUDGES />,
+    }
+    ,
+    {
+      path : '/RBAC/investigation',
+      element : <INVESTIGATION />,
     }
   ]
   }

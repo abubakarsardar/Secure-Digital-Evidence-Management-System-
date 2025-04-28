@@ -1,7 +1,4 @@
-.judges{
-    font-family: 'Poppins', sans-serif;
-}
-.judges-img{
+.investigation-img{
     background: linear-gradient(rgba(37, 65, 192, 0.719),rgb(67, 37, 238)) , url('../../../public/img/navimg.jpg');
     width: 100%;
     background-size: cover;
@@ -11,12 +8,13 @@
 .Navbar{
     text-transform: uppercase;
 }
-.judges-content{
+.investigation-content{
     text-align: center;
     padding-top: 8.5%;
     color: #fff;
     font-size: 25px;
 }
+
 .sdsms-container {
     min-height: 100vh;
     padding: 20px;

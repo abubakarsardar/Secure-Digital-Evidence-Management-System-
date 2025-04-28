@@ -17,7 +17,7 @@ export default function CardSlider() {
       <div className="relative w-[1000px] overflow-hidden">
             <div className="card-RBAC w-[300px] h-[500px] bg-white rounded-2xl shadow-lg flex flex-col justify-center items-center p-6 text-center">
               <img src='./img/INVSTIGATORS.jpg' className="w-100 h-100 mb-4" />
-              <h2 className="text-2xl font-bold mb-4 titl"> <NavLink to = "/" >INVESTIGATORS</NavLink> </h2>
+              <h2 className="text-2xl font-bold mb-4 titl"> <NavLink to = "/RBAC/investigation" >INVESTIGATORS</NavLink> </h2>
               <p className="text-gray-600 ">UPLOAD AND MANAGE FORENSIC FILES</p>
             </div>
       </div>
