@@ -12,9 +12,9 @@ export const JUDGES = () => {
             <div className='nav'>
                 <ul>
                 <li><NavLink to = '/' >Home</NavLink></li>
-                    <li><NavLink to = '/RBAC' >RBAC</NavLink></li>
-                    <li><NavLink to = '/About' >About</NavLink></li>
-                    <li><NavLink to = '/Security' >Security</NavLink></li>
+                    <li><NavLink to = '/RBAC' >CASE FILES</NavLink></li>
+                    <li><NavLink to = '/About' >AUDITLOGS</NavLink></li>
+                    <li><NavLink to = '/Security' >SECURITY ALERTS</NavLink></li>
                     <li><NavLink to = '/Contact' >Contact</NavLink></li>
                 </ul>
             </div>
@@ -28,6 +28,7 @@ export const JUDGES = () => {
 <div className='judges-container'>
         <div className="sdsms-container">
       <div className="sdsms-content">
+        <h1>WELCOME , JUDGES</h1>
         <p className="sdsms-description">
         THE SECURE DIGITAL EVIDENCE MANAGEMENT SYSTEM (SDSMS) <br /> 
           ENSURES SECURE ACCESS TO DIGITAL CASE FILES WHILE MAINTAINING <br />

@@ -16,7 +16,6 @@
 }
 
 .sdsms-container {
-    min-height: 100vh;
     padding: 20px;
     font-family: Arial, sans-serif;
     display: flex;
@@ -32,17 +31,17 @@
     border-radius: 8px;
   }
   
-  .sdsms-content h2 {
+  .sdsms-content h1 {
     color: #2c3e50;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   
   .sdsms-description {
     color: #333;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     text-align: left;
     font-size: 1em;
   }
